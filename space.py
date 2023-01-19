@@ -7,7 +7,7 @@ from typing import List
 
 
 class space:
-    def __init__(self, x, y, width, height, percentChance=0.2):
+    def __init__(self, x, y, width, height, percentChance=0.1):
         self.isBomb = random.random() < percentChance
         self.x = x * width
         self.y = y * height
